@@ -1,0 +1,50 @@
+body {
+	color: black;
+}
+
+.navbar-default, .navbar-toggle {
+	background-color: lightgrey;
+}
+
+#brand {
+	color: black;
+}
+
+.navbar-default button.navbar-toggle.collapsed {
+	border-color: grey
+}
+
+.navbar-default button.navbar-toggle {
+	border-color: white
+}
+
+.navbar-default button.navbar-toggle.collapsed .icon-bar {
+    background-color: grey;
+}
+
+.navbar-default button.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+#nav-list li a {
+	color: black;
+	font-size: 150%;
+}
+
+hr {
+	border-color: grey;
+	margin: 0 0 0 0;
+}
+
+#nav-list {
+	background-color: #f0f0f0;
+	border: 1px solid grey;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#menue {
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 20px;
+}
