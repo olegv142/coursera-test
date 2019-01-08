@@ -1,0 +1,15 @@
+<div class="container">
+	<div ng-if="!infoCtrl.infoValid" class="alert alert-warning">
+		Not Signed Up Yet. <a ui-sref="public.sign_up">Sign up</a> Now!
+	</div>
+	<div ng-if="infoCtrl.infoValid">
+	<fieldset>
+		<legend>Registration info</legend>
+		<div>Name: {{ infoCtrl.info.firstName }} {{ infoCtrl.info.lastName }}</div>
+		<div>Email: {{ infoCtrl.info.emailAddress }}</div>
+		<div>Phone: {{ infoCtrl.info.phoneNumber }}</div>
+		<div>Favorite dish:</div>
+	</fieldset>
+	<menu-item menu-item="infoCtrl.favoriteDish"></menu-item>
+	</div>
+</div>

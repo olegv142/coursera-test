@@ -165,6 +165,18 @@ h3.menu-item-title {
   }
 }
 
+legend {
+  color:inherit;
+}
+
+input {
+  color: black;
+  font-weight: bold;
+}
+
+fieldset {
+  margin-bottom: 1em;
+}
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
@@ -183,3 +195,4 @@ h3.menu-item-title {
     width: 100%;
   }
 }
+
